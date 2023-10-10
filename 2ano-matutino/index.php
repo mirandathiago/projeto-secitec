@@ -14,6 +14,10 @@ switch($url){
       $controlador = new Ifba\Visitas\controller\VisitaController();
       $controlador->mostrarVisitas();
     break;
+    case "salvar":
+      $controlador = new Ifba\Visitas\controller\VisitaController();
+      $controlador->salvar();
+    break;
     default:
       echo "<h1>Erro 404! Página não Encontrada!</h1>";
 }

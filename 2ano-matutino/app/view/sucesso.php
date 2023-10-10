@@ -9,13 +9,8 @@
 <body>
     <h1><?=$titulo?></h1>
 
-    <form method="post" action="salvar">
-        <label>
-            Nome:
-            <input type="text" name="nome">
-        </label>
-        <button>Salvar Visita</button>
-    </form>
+    <h2>Visita Cadastrada com Sucesso!</h2>
+    <a href="/projeto-secitec/2ano-matutino/">Voltar</a>
 
 </body>
 </html>
