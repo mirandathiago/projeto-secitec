@@ -9,10 +9,11 @@
 <body>
     <h1><?=$titulo?></h1>
     <ul>
-        <?php foreach($visitantes as $visitante){ ?>
-            <li><?=$visitante->data?> - <?=$visitante->nome?></li>
-        <?php } ?>    
+        <li>04-10-2023 - 09:45:25 - Thiago Souza</li>
+        <li>04-10-2023 - 09:45:25 - João Silva</li>
+        <li>04-10-2023 - 09:45:25 - Paulo Oliveira</li>
+        <li>04-10-2023 - 09:45:25 - Maria Fernandes</li>
+        <li>04-10-2023 - 09:45:25 - Julia Matos</li>
     </ul>
-    
 </body>
 </html>

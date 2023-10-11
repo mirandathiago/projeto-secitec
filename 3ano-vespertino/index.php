@@ -3,8 +3,6 @@
   require "./vendor/autoload.php";
 
 
-#bit.ly/form-renato
-
   $url = $_GET["url"] ?? "/";
  
   switch($url){
@@ -15,6 +13,10 @@
     case "mostra":
         $controller = new \Ifba\Visitas\controller\VisitasController();
         $controller->mostraVisitas();
+    break;
+    case "salvar":
+        $controller = new \Ifba\Visitas\controller\VisitasController();
+        $controller->salvar();
     break;
     default:
         echo "404 - Página não Encontrada!";

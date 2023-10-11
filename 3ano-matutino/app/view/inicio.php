@@ -8,12 +8,5 @@
 </head>
 <body>
     <h1><?=$titulo?></h1>
-    <form action="salvar" method="post">
-        <label>
-            Nome:
-            <input type="text" name="nome">
-        </label>
-        <button>Salvar Visita</button>
-    </form>
 </body>
 </html>
