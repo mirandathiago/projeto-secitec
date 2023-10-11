@@ -8,6 +8,14 @@
 </head>
 <body>
     <h1>Visitas - 2º Vespertino</h1>
+    <form method="post" action="salvar">
+        <label>
+            Nome:
+            <input type="text" name="nome">
+        </label>
+        <button>Confirmar Visita</button>
+
+    </form>
     
 </body>
 </html>

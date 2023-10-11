@@ -9,14 +9,16 @@ $url = $_GET["url"] ?? "/";
 
 switch($url){
     case "/":
-        $visitante = new \Ifba\Visitas\model\Visitante();
-        
         $controlador = new Ifba\Visitas\controller\VisitaController();
         $controlador->index();
     break;
     case "mostra":
         $controlador = new Ifba\Visitas\controller\VisitaController();
         $controlador->mostraVisitas();
+    break;
+    case "salvar":
+       $controlador = new Ifba\Visitas\controller\VisitaController();
+       $controlador->salvar();
     break;
     default:
         echo "<h2>Página Não encontrada</h2>";

@@ -1,0 +1,14 @@
+{
+    "name": "ifba/visitas",
+    "autoload": {
+        "psr-4": {
+            "Ifba\\Visitas\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Miranda"
+        }
+    ],
+    "require": {}
+}
